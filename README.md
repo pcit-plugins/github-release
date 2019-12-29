@@ -3,7 +3,7 @@
 ```yaml
 pipeline:
   deploy:
-    image: pcit/github_releases
+    image: pcit/github_release
     when:
       status: success
       event: tag
