@@ -1,4 +1,4 @@
-# PCIT GitHub Releases plugin
+# PCIT plugin -- GitHub Release
 
 ```yaml
 pipeline:
