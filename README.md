@@ -9,15 +9,13 @@ pipeline:
       event: tag
     settings:
       token: ${GITHUB_TOKEN}
-      # username:
-      # password:
       # repo: pcit-ce/pcit
       files:
       - file_name
       # overwrite: true
       # draft: true
       # prerelease: true
-      # target_commitish:
+      # target_commitish: refs/tags/nightly
       # note: note
       # title: title
 ```
